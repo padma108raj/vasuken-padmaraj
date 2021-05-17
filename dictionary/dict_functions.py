@@ -1,0 +1,20 @@
+d=dict() 
+print(d) #This will print empty dictionary
+d=dict({100:"apple",200:"Grapes",300:"Oranges"})
+print(d) # This will print the dictionary of elements
+print("="*50)
+print("The length of the dictionary:",len(d))
+print("="*50)
+print("The value of the key 100 is:",d.get(100))
+print("The Value of the key 100 is:",d.get(100,"Padma"))
+print("The Value of the key 400 is:",d.get(400,"Padma"))
+print("="*50)
+#print("Pop functionality:",d.pop(400))
+print("Pop functionality:",d.pop(100))
+print(d)
+print("="*50)
+print("popitem functionality:",d.popitem())
+print(d)
+d=dict({100:"apple",200:"Grapes",300:"Oranges"})
+print(d)
+
